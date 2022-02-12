@@ -1,0 +1,188 @@
+.body {
+  background-color: rgb(214, 64, 64);
+}
+.container {
+  background-image: url(bg-pattern-top-desktop.svg);
+  padding: 100px 20px;
+  margin: 0 auto;
+  width: 375px;
+  font-size: 15px;
+  background-image: url(jayy.jpg);
+  background-color: rgb(175, 173, 173);
+  background-blend-mode: screen;
+}
+.content {
+  background-color: hsl(0, 0%, 100%);
+  width: 80%;
+  margin: 10px auto;
+  padding: 50px 25px;
+  font-family: "Spartan", sans-serif;
+  background-image: url(bg-pattern-top-mobile.svg),
+    url(bg-pattern-bottom-mobile.svg);
+  background-repeat: no-repeat;
+  background-position: top left, bottom right;
+}
+.text-rating h2 {
+  font-size: 2em;
+  font-weight: 700;
+  color: hsl(300, 43%, 22%);
+}
+.text-rating p {
+  line-height: 25px;
+  font-size: 0.9em;
+  font-weight: 500;
+  color: hsl(303, 10%, 53%);
+}
+.rating {
+  font-size: 0.8em;
+  font-weight: 700;
+  margin: 20px auto;
+}
+.rating .reviews {
+  background-color: hsl(300, 11%, 93%);
+  padding: 7px;
+  border-radius: 7px;
+  margin-top: 10px;
+  /* font-size: 1.2em; */
+  color: hsl(300, 43%, 22%);
+}
+
+.rating img {
+  width: 15px;
+  padding: 2.5px;
+}
+.rating .besttech {
+  background-color: hsl(300, 11%, 93%);
+  padding: 7px;
+  border-radius: 7px;
+  margin-top: 10px;
+  /* font-size: 1.2em; */
+  color: hsl(300, 43%, 22%);
+}
+.rating .report {
+  background-color: hsl(300, 11%, 93%);
+  padding: 7px;
+  border-radius: 7px;
+  margin-top: 10px;
+  /* font-size: 1.2em; */
+  color: hsl(300, 43%, 22%);
+}
+.text-rating {
+  text-align: center;
+  font-size: 0.95em;
+}
+.text-rating h1 {
+  font-size: 2.5em;
+}
+.profile-card {
+  margin: 40px auto;
+  color: hsl(300, 24%, 96%);
+}
+
+.profile-card .colton {
+  background-color: hsl(300, 43%, 22%);
+  padding: 20px 40px;
+  margin-top: 15px;
+  border-radius: 10px;
+  font-weight: 400;
+}
+.profile-card span {
+  color: hsl(333, 80%, 67%);
+}
+.profile-card .irene {
+  background-color: hsl(300, 43%, 22%);
+  padding: 20px 40px;
+  margin-top: 15px;
+  border-radius: 10px;
+}
+.profile-card .anne {
+  background-color: hsl(300, 43%, 22%);
+  padding: 20px 40px;
+  margin-top: 15px;
+  border-radius: 10px;
+}
+
+.profile-card img {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+}
+.profile-card .card-image {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  font-size: 0.8em;
+  font-weight: 500;
+}
+.profile-card .card-text {
+  font-size: 0.8em;
+  line-height: 20px;
+  padding-bottom: 10px;
+  font-weight: 400;
+}
+
+@media (min-width: 960px) {
+  .container {
+    width: 1445px;
+  }
+  .content {
+    background-image: url(bg-pattern-top-desktop.svg),
+      url(bg-pattern-bottom-desktop.svg);
+    background-repeat: no-repeat;
+    width: 70%;
+    padding: 70px 100px;
+    margin: 0 auto;
+  }
+  .text-rating {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .text-rating .text {
+    text-align: left;
+    width: 40%;
+
+    line-height: 25px;
+  }
+  .text-rating .rating {
+    width: 50%;
+  }
+  .text-rating .reviews {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    width: 60%;
+    margin-left: 10%;
+  }
+  .text-rating .report {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 65%;
+    margin-left: 20%;
+  }
+  .text-rating .besttech {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 65%;
+    margin-left: 30%;
+  }
+  .profile-card {
+    display: flex;
+    gap: 25px;
+    margin-bottom: 0px;
+  }
+  .profile-card .colton {
+    height: 70%;
+    margin-top: 0px;
+  }
+  .profile-card .irene {
+    height: 70%;
+    margin-top: 20px;
+  }
+  .profile-card .anne {
+    height: 70%;
+    margin-top: 40px;
+  }
+}
