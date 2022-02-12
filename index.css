@@ -3,7 +3,7 @@
 }
 .container {
   background-image: url(bg-pattern-top-desktop.svg);
-  padding: 100px 5px;
+  padding: 100px 0;
   margin: 0 auto;
   width: 375px;
   font-size: 15px;
